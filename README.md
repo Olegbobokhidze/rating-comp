@@ -1,6 +1,6 @@
 # Frontend Mentor - Rating component
 
-![Design preview for the rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the rating component coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/v1647605679/Challenges/nvitmyjwm3b9ki67h79z.jpg)
 
 - [Overview](#overview)
   - [Links](#links)
