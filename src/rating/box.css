@@ -9,12 +9,13 @@ body {
   background-color: #131518;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100vh;
 }
-.App {
+.box {
   width: 327px;
+  justify-content: center;
+  text-align: center;
   height: 360px;
   border-radius: 15px;
   background-color: #232a34;
@@ -23,7 +24,7 @@ body {
 h1 {
   font-weight: 700;
   color: white;
-  margin-top: 28px;
+  margin-top: 16px;
   margin-bottom: 7px;
   font-size: 28px;
 }
@@ -31,37 +32,37 @@ p {
   font-weight: 400;
   color: #969fad;
   font-size: 15px;
-  margin-bottom: 16px;
-  line-height: 22px;
 }
-.star-parent {
+.rating {
   display: flex;
-  background-color: #262e38;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  text-align: center;
+  background-color: #262e38;
+  height: 32px;
+  border-radius: 22px;
+  color: #fc7614;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 168px;
+  margin-left: 55px;
 }
-.star {
-  width: 14px;
-  height: 14px;
+.image {
+  width: 144px;
+  height: 96px;
 }
 @media screen and (min-width: 1440px) {
-  .star {
-    width: 16px;
-    height: 16px;
-  }
-  .App {
+  .box {
     width: 412px;
     height: 416px;
   }
-  .star-parent {
-    margin-bottom: 30px;
-    width: 48px;
-    height: 48px;
+  .image {
+    margin-top: 40px;
+    width: 162px;
+    height: 108px;
   }
-  p {
-    margin-bottom: 30px;
+  .rating {
+    width: 193px;
+    margin-left: 80px;
   }
 }
